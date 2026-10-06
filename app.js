@@ -22,7 +22,7 @@ if (location.protocol === 'file:') {
       if (target.protocol !== 'https:' || target.hostname !== 'github.com') throw new Error('Invalid release URL');
       download.href = target.href;
     }
-    document.getElementById('download-meta').textContent = `Windows 64 位 · ${(release.bytes / 1024 / 1024).toFixed(0)} MB · ${release.releaseDate} · 三种语言`;
+    document.getElementById('download-meta').textContent = `Windows 64 位 · ${(release.bytes / 1024 / 1024).toFixed(0)} MB · ${release.version || release.releaseDate} · 三种语言`;
     download.title = `下载 ${release.filename}`;
   }).catch(() => { status.textContent = '暂时无法获取版本信息，请重试。'; });
 }

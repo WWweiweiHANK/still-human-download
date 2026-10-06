@@ -1,10 +1,12 @@
 {
   "available": true,
-  "filename": "STILL-HUMAN-Windows-20261006.zip",
-  "bytes": 398331383,
+  "version": "2026-10-06 r2",
+  "filename": "STILL-HUMAN-Windows-20261006-r2.zip",
+  "bytes": 405160779,
   "releaseDate": "2026-10-06",
-  "downloadUrl": "https://github.com/WWweiweiHANK/still-human-download/releases/download/contest-20261006/STILL-HUMAN-Windows-20261006.zip",
+  "builtAt": "2026-10-06T07:55:16.089Z",
+  "downloadUrl": "https://github.com/WWweiweiHANK/still-human-download/releases/download/contest-20261006-r2/STILL-HUMAN-Windows-20261006-r2.zip",
   "repository": "WWweiweiHANK/still-human-download",
-  "assetId": 614797332,
-  "sha256": "ff1b96e382e95f437043f71633ea3e1ace9b679d40ea7cc4b8580e0dce83afba"
+  "assetId": 614889421,
+  "sha256": "413fd017b7f22a4b3b6ab80767d4dd9e79b7a09f45a07c5110f51f9253096f8f"
 }
