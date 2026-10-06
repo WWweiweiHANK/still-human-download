@@ -1,7 +1,8 @@
 const root = document.documentElement;
 const themeButton = document.getElementById('theme');
+root.dataset.theme = 'dark';
 try { const saved = localStorage.getItem('still-human-theme'); if (saved === 'dark' || saved === 'light') root.dataset.theme = saved; } catch {}
-function currentTheme() { return root.dataset.theme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'); }
+function currentTheme() { return root.dataset.theme || 'dark'; }
 function updateThemeLabel() { themeButton.textContent = currentTheme() === 'dark' ? '浅色模式' : '深色模式'; }
 updateThemeLabel();
 themeButton.addEventListener('click', () => {
