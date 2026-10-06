@@ -1,5 +1,10 @@
 {
-  "available": false,
+  "available": true,
+  "filename": "STILL-HUMAN-Windows-20261006.zip",
+  "bytes": 398331383,
+  "releaseDate": "2026-10-06",
+  "downloadUrl": "https://github.com/WWweiweiHANK/still-human-download/releases/download/contest-20261006/STILL-HUMAN-Windows-20261006.zip",
   "repository": "WWweiweiHANK/still-human-download",
-  "message": "游戏即将开放下载。"
+  "assetId": 614797332,
+  "sha256": "ff1b96e382e95f437043f71633ea3e1ace9b679d40ea7cc4b8580e0dce83afba"
 }
