@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="STILL HUMAN 游戏下载。不要相信任何人，并且保持人性。">
+  <meta name="theme-color" content="#131713">
+  <title>STILL HUMAN · 游戏下载</title>
+  <link rel="preload" href="assets/hero.webp" as="image">
+  <link rel="icon" href="assets/hero.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-release-endpoint="release.json">
+  <a class="skip" href="#main">跳到主要内容</a>
+  <header class="header wrap">
+    <a class="wordmark" href="./">STILL HUMAN<span>仍是人类</span></a>
+    <button class="theme-button" id="theme" type="button">浅色模式</button>
+  </header>
+  <main class="hero" id="main">
+    <div class="hero-image"><img src="assets/hero.webp" alt="昏暗的宿舍" width="1920" height="620" fetchpriority="high"></div>
+    <div class="hero-inner wrap">
+      <h1>不要相信<br>任何人。</h1>
+      <p class="hero-line">并且保持人性。</p>
+      <p class="hero-description">在封闭宿舍里，通过交谈分辨伪人。</p>
+      <a class="download" id="download" href="download/windows" aria-describedby="download-meta network">下载游戏 <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v13m-5-5 5 5 5-5M4 18v3h16v-3"/></svg></a>
+      <p class="download-meta" id="download-meta" aria-live="polite">Windows 64 位 · 简体中文 / 繁體中文 / English</p>
+      <p class="network" id="network">需要联网 · 解压后运行 STILL-HUMAN.exe</p>
+      <p class="download-status" id="download-status" role="status"></p>
+    </div>
+  </main>
+  <footer class="footer wrap"><span>STILL HUMAN</span><p>参赛作品</p></footer>
+</body>
+</html>
